@@ -1,0 +1,258 @@
+/* 
+Add in your custom style such that you can develop the wonderful website within the exercise. 
+*/
+body{
+    text-align: center;
+    color: #02111b;
+}
+
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding-right: 80px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    
+}
+.navbar-brand {
+    color: #eef5db;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #eef5db;
+}
+
+
+
+header{
+    background-image: url("../images/travel2.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #02111b;
+    padding: 50px;
+}
+
+.collapse p{
+    color: #eef5db;
+    text-align: left;
+    padding-left: 25px;
+}
+
+#alertMsg{
+    display: none;
+}
+
+.header-content{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
+hr{
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #fe5f55;
+    opacity: 1;
+}
+
+header p,header h1 {
+    color: white !important;
+    font-size: 20px;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
+
+header button{
+    border-radius: 50px !important;
+    color: #02111b;
+    background-color: #7A9E9F;
+    border: 0;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bolder;
+}
+
+#experience{
+    background-color: #7A9E9F !important;
+    color:#02111b;
+    text-align: center;
+    padding: 50px;
+}
+
+#experience .btn{
+    border-radius: 50px !important;
+    color: #7A9E9F;
+    background-color: #02111b;
+    border: 0;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bolder;
+}
+
+.contact-container{
+    justify-content: space-evenly;
+}
+
+.contact-container i{
+    padding-right: 10px;
+}
+
+.contact-method{
+    padding-bottom: 20px;
+}
+
+#backToTop{
+    background-color: black;
+    color: #02111b;
+    padding: 50px;
+}
+
+#backToTop button{
+    border-radius: 50px !important;
+    background-color: #02111b;
+    border: 0;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bolder;
+}
+#contact {
+    padding: 25px;
+    background-color: #EEF1EF;
+    text-decoration: none !important;
+}
+
+/* .hobbies-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.img-container{
+    flex: 25%;
+    padding: 0;
+}
+
+.img-container img{
+    position: absolute;
+    animation: showMe 2.5s linear infinite 0s forwards;
+	animation-play-state: paused;
+    width: 50%;
+}
+
+.img-container:hover img{
+	animation-play-state: running;
+}
+
+
+.img-container img:nth-child(1){
+	z-index: 9;
+}
+.img-container img:nth-child(2){
+	animation-delay: 0.5s;
+	z-index: 8;
+}
+.img-container img:nth-child(3){
+	animation-delay: 1.0s;
+	z-index: 7;
+}
+.img-container img:nth-child(4){
+	animation-delay: 1.5s;
+	z-index: 6;
+}
+.img-container img:nth-child(5){
+	animation-delay: 2s;
+	z-index: 5;
+}
+
+@keyframes showMe {
+    0% { visibility: visible; z-index: 100; }
+	20% { visibility: visible; z-index: 100; }
+	40% { visibility: hidden; z-index: 0; }
+    100% { visibility: hidden; z-index: 0; }
+} */
+
+
+
+.navbar-toggle{
+    display: none;
+    background-color: #02111b;
+    color: #7A9E9F;
+    border-radius: 4px !important;
+    border: 1px solid gray;
+    padding: 3px !important;
+}
+
+@media screen and (max-width:768px){
+    .navbar{
+        left: 0;
+        background-color: #02111b;
+        padding-right: 0;
+        display: block;
+    }
+    .nav-link{
+        color: #7A9E9F;
+        display: none;
+    }
+    .navbar-brand{
+        font-weight: bold;
+        color: #eef5db;
+        float: inline-start;
+    }
+    .navbar-toggle{
+        display: block;
+        float: inline-end;
+        margin-right: 20px !important;
+    }
+    .img-container{
+        flex: 50%;
+    }
+    .contact-container{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .img-container {
+      flex-direction: column;
+    }
+  }
+
+.projects {
+    padding: 50px;
+    background-color: #eef5db;
+}
+
+a{
+    text-decoration: none;
+    color: #02111b;
+}
+.fa-bars{
+    color: #eef5db !important;
+}
+
+.fa-circle-half-stroke{
+    color: #eef5db !important;
+}
+
+#dark-toggler{
+    background-color: transparent;
+}

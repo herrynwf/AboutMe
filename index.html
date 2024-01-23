@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Pat O</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <header id="header">
+    
+    <div>
+      <nav class="navbar navbar-expand justify-content-between">
+        <a class="px-4 m-0 navbar-brand" href="#">PAT O</a>
+        <div class="toggle-container">
+          <div class="dark-toggler">
+            <button class="p-0" id="dark-toggler">
+              <i class="fa-solid fa-circle-half-stroke fa-xl"></i>
+            </button>
+          </div>
+          <button class="navbar-toggle" type="button" id="collapse-button" aria-controls="collapseExample" data-bs-toggle="collapse" aria-haspopup="true" aria-expanded="false" href="#collapseExample">
+            <span class="navbar-toggler-icon">
+              <i class="fa-solid fa-bars fa-xl"></i>
+            </span>
+          </button>
+          <div class="collapse" id="collapseExample">
+            <li></li>
+            <li></li>
+            <a href="#header"><p>About</p></a>
+            <a href="#experience"><p>Experience</p></a>
+            <a href="#projects"></a><p>Project</p></a>
+            <a href="#contact"><p>Contact</p></a>
+            <a href="#hobbies"></a><p>Hobbies</p></a>
+            <!-- <div class="collapse-menu">
+              <ul class="collapse-items" >
+                <li><a class="px-3 nav-link" href="#">ABOUT</a></li>
+                <li><a class="px-3 nav-link" href="#">EXPERIENCE</a></li>
+                <li><a class="px-3 nav-link" href="#">PROJECT</a></li>
+                <li><a class="px-3 nav-link" href="#">CONTACT</a></li>
+                about
+              </ul>
+            </div> -->
+          </div>
+
+        </div>
+          <ul class="navbar-nav" >
+              <li><a class="px-3 nav-link" href="#">ABOUT</a></li>
+              <li><a class="px-3 nav-link" href="#experience">EXPERIENCE</a></li>
+              <li><a class="px-3 nav-link" href="#projects">PROJECT</a></li>
+              <li><a class="px-3 nav-link" href="#contact">CONTACT</a></li>
+              <li><a class="px-3 nav-link" href="#hobbies">HOBBIES</a></li>
+          </ul>
+      </nav>
+
+      <div class="header-content">
+        <h1>Hi, I am Pat O</h1>
+        <hr>
+        <p>A want-to-be front end developer, I design and code beautifully simple things, and I love what I do.</p>
+        <button class="btn-lg">LET'S ROLL!!</button>
+        <!-- add roll to the next section -->
+      </div>
+    </div>
+  </header>
+
+  <body data-spy="scroll" data-target=".navbar">
+    <section class="bg-primary" id ='experience'>
+      <h1>Experience</h1>
+      <hr>
+      <div class="cv-container">
+        <p>2022 - Present IT Engineering Limited</p>
+        <h6>Project Manager</h6>
+        <p>Oversee different size of commercial interior fitout projects</p>
+      </div>
+      <br>
+      <div class="cv-container">
+        <p>2019 - 2022 Chi Tao Decoration Engineering Limited</p>
+        <h6>Assistant Project Manager</h6>
+        <p>Project Coordinator</p>
+        <p>Oversee different size of commercial interior fitout projects</p>
+      </div>
+      <br>
+      <div class="cv-container">
+        <p>2015 - 2019 Harvest Engineering Limited</p>
+        <h6>Engineering Assistant</h6>
+        <p>Oversee different size of commercial interior fitout projects</p>
+      </div>
+      <a class="btn btn-lg" href="./assets/Patrick_Ngo_Resume.pdf" target="_blank" rel="noopener noreferrer">View full Resume</a>
+      <!-- add my cv -->
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <hr>
+      <p>React-based Farm Progress Tracking System - Dashboard Jan 2024</p><br>
+      <p>Python Web Scraping: Extracting and Filtering Data from Video Game Ranking Page Oct 2023</p><br>
+    </section>
+    
+    <section id="contact">
+      <h1>Contact</h1>
+      <hr>
+      <div class="contact-container d-flex">
+        <div class="contact-method">
+          <i class="fa-solid fa-phone fa-2xl"></i>
+          <a id="phone">+852 6734 1332</a>
+        </div>
+        <div class="contact-method">
+          <i class="fa-solid fa-envelope fa-2xl"></i>
+          <button id="email">nwfpatrick@gmail.com</button>
+          <div id="alertMsg" class="alert alert-dark" role="alert">
+            Copied
+          </div>
+        </div>
+        <div class="contact-method">
+          <i class="fa-brands fa-github fa-2xl"></i>
+          <a href="https://github.com/herrynwf">herrynwf</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies">
+
+      <div class="hobbies-container">
+        
+        <!-- <div class="img-container diving">
+          <img src="./assets/images/diving1.jpeg" class="img-fluid">
+          <img src="./assets/images/diving2.jpeg" class="img-fluid">
+        </div>
+        
+        <div class="img-container sailing">
+          <img src="./assets/images/sailing1.jpeg" class="img-fluid">
+          <img src="./assets/images/sailing2.jpeg" class="img-fluid">
+          <img src="./assets/images/sailing3.jpeg" class="img-fluid">
+          <img src="./assets/images/sailing4.jpeg" class="img-fluid">
+          <img src="./assets/images/sailing5.jpeg" class="img-fluid">
+        </div>
+        
+        <div class="img-container newfd">
+          <img src="./assets/images/newfd1.jpeg" class="img-fluid">
+          <img src="./assets/images/newfd2.jpeg" class="img-fluid">
+          <img src="./assets/images/newfd3.jpeg" class="img-fluid">
+        </div>
+        
+        <div class="img-container travel">
+          <img src="./assets/images/travel3.jpeg" class="img-fluid">
+          <img src="./assets/images/travel4.jpeg" class="img-fluid">
+          <img src="./assets/images/travel5.jpeg" class="img-fluid">
+          <img src="./assets/images/travel6.jpeg" class="img-fluid">
+          <img src="./assets/images/travel7.jpeg" class="img-fluid">
+        </div> -->
+        <div class="img-container diving">
+          <img src="./assets/images/diving1.jpeg" alt="Image 1" />
+        </div>
+        <div class="img-container sailing">
+          <img src="./assets/images/sailing1.jpeg" alt="Image 2" />
+        </div>
+        <div class=class="img-container newfd">
+          <img src="./assets/images/newfd1.jpeg" alt="Image 3" />
+        </div>
+        <div class="img-container travel">
+          <img src="./assets/images/travel3.jpeg" alt="Image 4" />
+        </div>
+      </div>
+      
+    </section>
+    <!-- 1. left unknow white
+    2. seperate slide time
+  3. enlarge photos
+4. overlay with caption 
+https://tympanus.net/codrops/2012/05/09/how-to-create-a-fast-hover-slideshow-with-css3/-->
+      <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+     <script src="https://kit.fontawesome.com/3bcb295dc2.js" crossorigin="anonymous"></script>
+     <script src=".\assets\js\script.js"></script>
+     
+  </body>
+</html>
